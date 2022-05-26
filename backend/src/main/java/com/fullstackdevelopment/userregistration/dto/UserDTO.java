@@ -2,14 +2,20 @@ package com.fullstackdevelopment.userregistration.dto;
 
 import com.fullstackdevelopment.userregistration.entities.User;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 
 public class UserDTO implements Serializable {
     private static final long serialVersionUID = 1L;
 
     private Long id;
+    @NotBlank(message = "campo obrigatório")
     private String name;
+    @Email(message = "favor informe um email válido")
+    @NotBlank(message = "campo obrigatório")
     private String email;
+    @NotBlank(message = "campo obrigatório")
     private String address;
 
     public UserDTO() {

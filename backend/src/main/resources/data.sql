@@ -1,0 +1,9 @@
+INSERT INTO tb_user (name, email, address) VALUES ('Wester Torres', 'wester.torres@gmail.com','rua arca 271');
+INSERT INTO tb_user (name, email, address) VALUES ('Dayane Rosa', 'dayane.rosas@gmail.com','rua arca 271');
+INSERT INTO tb_user (name, email, address) VALUES ('Neuza Rosa', 'neuza.rosa@gmail.com','rua guapeva 819');
+INSERT INTO tb_user (name, email, address) VALUES ('Ronaldo Vieira', 'ronaldo.vieira@gmail.com','rua guapeva 819');
+INSERT INTO tb_user (name, email, address) VALUES ('Paulo Antonio', 'paulo.antonio@gmail.com','rua videira 452');
+INSERT INTO tb_user (name, email, address) VALUES ('Roseli Torres', 'roseli.torres@gmail.com','rua videira 452');
+INSERT INTO tb_user (name, email, address) VALUES ('Roger Torres', 'roger.torres@gmail.com','rua videira 452');
+INSERT INTO tb_user (name, email, address) VALUES ('Nathaly Torres', 'nathaly.torres@gmail.com','rua videira 452');
+INSERT INTO tb_user (name, email, address) VALUES ('Wesley Garcia', 'wesley.garcia@gmail.com','rua arca 301');
